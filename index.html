@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Provinet Empresa Rol | Organización y productividad para tu negocio</title>
+  <meta name="description" content="Blog educativo independiente sobre organización y productividad para dueños de pequeños negocios. Cómo organizar tu semana, gestionar proveedores y ser más productivo. Solo contenido informativo." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="CHRISTIAN DAVID BUSTOS VELASCO" />
+  <meta property="og:title" content="Provinet Empresa Rol — Blog de organización para emprendedores" />
+  <meta property="og:description" content="Aprende a organizar tu negocio, gestionar tu tiempo y ser más productivo. Blog independiente y educativo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://provinetempresarol.blog" />
+  <link rel="canonical" href="https://provinetempresarol.blog" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Provinet Empresa Rol",
+    "url": "https://provinetempresarol.blog",
+    "description": "Blog educativo e informativo sobre organización y productividad para dueños de pequeños negocios.",
+    "inLanguage": "es",
+    "isAccessibleForFree": true,
+    "publishingPrinciples": "https://provinetempresarol.blog/#politica-editorial",
+    "publisher": {
+      "@type": "Person",
+      "name": "CHRISTIAN DAVID BUSTOS VELASCO",
+      "email": "soporte@provinetempresarol.blog",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle 132",
+        "addressLocality": "Maracay",
+        "postalCode": "2002",
+        "addressCountry": "VE"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --yellow:   #FFD93D;
+      --yellow-lt:#FFF9C4;
+      --blue:     #4ECDC4;
+      --blue-lt:  #E0F7F5;
+      --pink:     #FF6B9D;
+      --pink-lt:  #FFE4F0;
+      --purple:   #A78BFA;
+      --purple-lt:#F3F0FF;
+      --green:    #6BCB77;
+      --green-lt: #EDFAEE;
+      --ink:      #2D2D2D;
+      --ink-mid:  #555555;
+      --ink-mu:   #999999;
+      --white:    #FFFFFF;
+      --grid-bg:  #FAFAFA;
+      --border:   #E8E8E8;
+      --shadow:   0 4px 16px rgba(0,0,0,0.08);
+      --shadow-lg:0 12px 40px rgba(0,0,0,0.12);
+      --fd: 'Caveat', cursive;
+      --fb: 'Nunito', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--fb);
+      background-color: var(--grid-bg);
+      background-image:
+        linear-gradient(rgba(78,205,196,0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(78,205,196,0.07) 1px, transparent 1px);
+      background-size: 32px 32px;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--yellow-lt); }
+    ::-webkit-scrollbar-thumb { background: var(--yellow); border-radius: 3px; }
+
+    /* ═══ TOP BAR ═══ */
+    .topbar {
+      background: var(--ink);
+      padding: 7px 24px;
+      display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;
+    }
+    .topbar span { font-family: var(--fb); font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.55); letter-spacing: 0.06em; text-transform: uppercase; }
+    .topbar .hi { color: var(--yellow); }
+    .topbar .sep { color: rgba(255,255,255,0.15); }
+
+    /* ═══ HEADER ═══ */
+    .hdr {
+      background: var(--white);
+      border-bottom: 3px solid var(--yellow);
+      position: sticky; top: 0; z-index: 200;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    }
+    .hdr-in {
+      max-width: 1180px; margin: 0 auto;
+      padding: 0 24px; height: 70px;
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    }
+    .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
+    .logo-mark {
+      width: 46px; height: 46px;
+      background: var(--yellow);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--fd); font-size: 22px; font-weight: 700; color: var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      flex-shrink: 0;
+    }
+    .logo-name { font-family: var(--fd); font-size: 20px; font-weight: 700; color: var(--ink); line-height: 1; }
+    .logo-sub { font-size: 10px; font-weight: 700; color: var(--ink-mu); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 2px; }
+    .nav { display: flex; align-items: center; gap: 4px; }
+    .nav a {
+      font-size: 13.5px; font-weight: 700; color: var(--ink-mid);
+      text-decoration: none; padding: 8px 14px; border-radius: 8px; transition: all 0.18s;
+    }
+    .nav a:hover { background: var(--yellow-lt); color: var(--ink); }
+    .nav-cta {
+      background: var(--yellow) !important; color: var(--ink) !important;
+      border-radius: 8px !important; margin-left: 6px;
+      box-shadow: 2px 2px 0 var(--ink);
+    }
+    .nav-cta:hover { background: #f0c800 !important; transform: translate(-1px,-1px); box-shadow: 3px 3px 0 var(--ink) !important; }
+    .ham { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
+    .ham span { display: block; width: 22px; height: 2.5px; background: var(--ink); border-radius: 2px; transition: all 0.28s; }
+
+    /* ═══ HERO — portada de planner ═══ */
+    .hero {
+      max-width: 1180px; margin: 40px auto; padding: 0 24px;
+      display: grid; grid-template-columns: 1fr 380px; gap: 32px; align-items: start;
+    }
+    .hero-main {
+      background: var(--white);
+      border: 2px solid var(--ink);
+      border-radius: 20px;
+      padding: 48px 52px;
+      box-shadow: 6px 6px 0 var(--ink);
+      position: relative;
+      overflow: hidden;
+    }
+    /* Espiral decorativa */
+    .hero-spiral {
+      position: absolute; top: 0; left: 0; bottom: 0; width: 36px;
+      background: var(--yellow-lt);
+      border-right: 2px solid var(--border);
+      display: flex; flex-direction: column; align-items: center; justify-content: space-around; padding: 20px 0;
+    }
+    .spiral-dot {
+      width: 16px; height: 16px; border-radius: 50%;
+      border: 2px solid var(--ink-mu); background: var(--white);
+    }
+    .hero-body { padding-left: 20px; }
+    .hero-sticker {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--pink-lt); border: 2px solid var(--pink);
+      border-radius: 100px; padding: 6px 16px; margin-bottom: 20px;
+      font-size: 12px; font-weight: 800; color: var(--pink);
+      letter-spacing: 0.05em; text-transform: uppercase;
+      box-shadow: 2px 2px 0 rgba(255,107,157,0.3);
+    }
+    .hero-h1 {
+      font-family: var(--fd);
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 700; color: var(--ink);
+      line-height: 1.15; margin-bottom: 16px;
+    }
+    .hero-h1 mark {
+      background: var(--yellow);
+      padding: 0 6px; border-radius: 4px;
+      font-style: normal; color: var(--ink);
+    }
+    .hero-p {
+      font-size: 15px; color: var(--ink-mid);
+      line-height: 1.78; margin-bottom: 32px; max-width: 480px;
+    }
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 36px; }
+    .btn-y {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--yellow); color: var(--ink);
+      font-family: var(--fb); font-size: 14px; font-weight: 800;
+      padding: 12px 28px; border-radius: 10px;
+      text-decoration: none; border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      transition: all 0.18s;
+    }
+    .btn-y:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 var(--ink); }
+    .btn-w {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--white); color: var(--ink);
+      font-family: var(--fb); font-size: 14px; font-weight: 700;
+      padding: 12px 24px; border-radius: 10px;
+      text-decoration: none; border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      transition: all 0.18s; cursor: pointer;
+    }
+    .btn-w:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 var(--ink); background: var(--grid-bg); }
+    /* Stats tipo checklist */
+    .hero-checks { display: flex; flex-direction: column; gap: 8px; }
+    .hck {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 13.5px; font-weight: 600; color: var(--ink-mid);
+    }
+    .hck-box {
+      width: 20px; height: 20px; border-radius: 5px;
+      border: 2px solid var(--ink); background: var(--green-lt);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; flex-shrink: 0;
+    }
+
+    /* Panel lateral hero */
+    .hero-side { display: flex; flex-direction: column; gap: 20px; }
+    .id-note {
+      background: var(--yellow-lt);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 4px 4px 0 var(--ink);
+      position: relative;
+    }
+    .id-note::before {
+      content: '📌';
+      position: absolute; top: -12px; right: 18px;
+      font-size: 22px;
+    }
+    .id-note-tt {
+      font-family: var(--fd); font-size: 18px; font-weight: 700;
+      color: var(--ink); margin-bottom: 14px;
+    }
+    .id-row { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--ink-mid); margin-bottom: 7px; line-height: 1.45; font-weight: 600; }
+    .id-div { height: 1px; background: var(--border); margin: 12px 0; }
+    .id-no {
+      background: var(--pink-lt); border: 2px solid var(--pink);
+      border-radius: 12px; padding: 12px 14px; margin-top: 12px;
+    }
+    .id-no-tt { font-size: 10px; font-weight: 800; color: var(--pink); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 7px; }
+    .id-no-row { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-mid); margin-bottom: 5px; font-weight: 600; }
+    .owner-card {
+      background: var(--blue-lt);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 4px 4px 0 var(--ink);
+      display: flex; align-items: center; gap: 14px;
+    }
+    .owner-av {
+      width: 48px; height: 48px;
+      background: var(--blue);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--fd); font-size: 22px; font-weight: 700; color: var(--white);
+      flex-shrink: 0;
+    }
+    .owner-name { font-family: var(--fd); font-size: 15px; font-weight: 700; color: var(--ink); line-height: 1.3; }
+    .owner-role { font-size: 11px; font-weight: 700; color: var(--ink-mu); margin-top: 3px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+    /* ═══ ADS ═══ */
+    .ads { max-width: 1180px; margin: 0 auto; padding: 0 24px 32px; }
+    .ads-box {
+      background: var(--white); border: 2px dashed var(--border);
+      border-radius: 12px; height: 90px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--ink-mu); font-size: 11px; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase;
+    }
+
+    /* ═══ ARTÍCULOS — post-its ═══ */
+    .arts-sec { max-width: 1180px; margin: 0 auto; padding: 0 24px 68px; }
+    .sec-hd { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 36px; gap: 16px; flex-wrap: wrap; }
+    .sec-tt { font-family: var(--fd); font-size: clamp(28px,3vw,40px); font-weight: 700; color: var(--ink); }
+    .sec-tt span { border-bottom: 3px solid var(--yellow); }
+    .sec-ds { font-size: 12px; color: var(--ink-mu); text-align: right; max-width: 240px; line-height: 1.5; font-weight: 600; }
+
+    /* Grid post-its */
+    .arts-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+    .postit {
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      padding: 24px;
+      cursor: pointer;
+      transition: all 0.22s cubic-bezier(0.4,0,0.2,1);
+      position: relative;
+      display: flex; flex-direction: column;
+    }
+    .postit:hover { transform: translate(-3px,-3px); }
+    .postit-y  { background: var(--yellow-lt); box-shadow: 4px 4px 0 var(--ink); }
+    .postit-y:hover  { box-shadow: 7px 7px 0 var(--ink); }
+    .postit-b  { background: var(--blue-lt);   box-shadow: 4px 4px 0 var(--ink); }
+    .postit-b:hover  { box-shadow: 7px 7px 0 var(--ink); }
+    .postit-p  { background: var(--pink-lt);   box-shadow: 4px 4px 0 var(--ink); }
+    .postit-p:hover  { box-shadow: 7px 7px 0 var(--ink); }
+    .postit-g  { background: var(--green-lt);  box-shadow: 4px 4px 0 var(--ink); }
+    .postit-g:hover  { box-shadow: 7px 7px 0 var(--ink); }
+    .postit-pu { background: var(--purple-lt); box-shadow: 4px 4px 0 var(--ink); }
+    .postit-pu:hover { box-shadow: 7px 7px 0 var(--ink); }
+    /* Artículo destacado ocupa 2 columnas */
+    .postit.feat { grid-column: span 2; flex-direction: row; gap: 24px; align-items: center; }
+    .feat-icon {
+      width: 100px; height: 100px; flex-shrink: 0;
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 44px;
+    }
+    .postit-num {
+      font-family: var(--fd); font-size: 13px; font-weight: 700;
+      color: var(--ink-mu); margin-bottom: 10px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .postit-num::before { content: '#'; }
+    .tag {
+      display: inline-block; font-size: 10px; font-weight: 800;
+      letter-spacing: 0.07em; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 100px; margin-bottom: 10px;
+      border: 1.5px solid;
+    }
+    .tag-y  { background: var(--yellow);    color: #7A5F00; border-color: #E0A800; }
+    .tag-b  { background: var(--blue);      color: #ffffff; border-color: #3ABDB4; }
+    .tag-p  { background: var(--pink);      color: #ffffff; border-color: #E05589; }
+    .tag-g  { background: var(--green);     color: #ffffff; border-color: #4DB55C; }
+    .tag-pu { background: var(--purple);    color: #ffffff; border-color: #8B6FEA; }
+    .postit-date { font-size: 11px; color: var(--ink-mu); font-weight: 700; margin-bottom: 10px; }
+    .postit-title {
+      font-family: var(--fd); font-size: 18px; font-weight: 700;
+      color: var(--ink); line-height: 1.35; margin-bottom: 8px; flex: 1;
+    }
+    .feat .postit-title { font-size: 22px; }
+    .postit-exc { font-size: 13px; color: var(--ink-mid); line-height: 1.65; margin-bottom: 14px; }
+    .postit-foot { display: flex; align-items: center; justify-content: space-between; margin-top: auto; }
+    .postit-auth { font-size: 11px; color: var(--ink-mu); font-weight: 700; }
+    .postit-cta {
+      font-size: 13px; font-weight: 800; color: var(--ink);
+      display: flex; align-items: center; gap: 4px;
+      background: var(--white); border: 2px solid var(--ink);
+      padding: 6px 14px; border-radius: 8px;
+      box-shadow: 2px 2px 0 var(--ink);
+      transition: all 0.18s;
+    }
+    .postit:hover .postit-cta { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 var(--ink); }
+    .postit-notice { font-size: 10.5px; color: var(--ink-mu); font-style: italic; margin-top: 10px; font-weight: 600; }
+
+    /* ═══ ACERCA DE ═══ */
+    .about {
+      background: var(--white);
+      border-top: 2px solid var(--border);
+      border-bottom: 2px solid var(--border);
+      padding: 68px 24px;
+    }
+    .about-in { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1fr 360px; gap: 48px; align-items: start; }
+    .about-paper {
+      background: var(--white); border: 2px solid var(--ink);
+      border-radius: 16px; padding: 30px;
+      box-shadow: 5px 5px 0 var(--ink);
+    }
+    .about-avatar {
+      width: 68px; height: 68px;
+      background: var(--blue); border: 2px solid var(--ink);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--fd); font-size: 28px; font-weight: 700; color: var(--white);
+      margin-bottom: 14px;
+    }
+    .about-name { font-family: var(--fd); font-size: 18px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+    .about-role { font-size: 11px; font-weight: 800; color: var(--ink-mu); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px; }
+    .about-ci { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--ink-mid); margin-bottom: 8px; font-weight: 600; line-height: 1.45; }
+    .about-ci a { color: var(--blue); text-decoration: none; }
+    .about-ci a:hover { text-decoration: underline; }
+    .about-ind {
+      background: var(--green-lt); border: 2px solid var(--green);
+      border-radius: 10px; padding: 14px 16px; margin-top: 16px;
+    }
+    .about-ind p { font-size: 12.5px; color: var(--ink-mid); line-height: 1.65; font-weight: 600; }
+    .about-ind strong { color: var(--olive, #4A7C59); }
+
+    /* ═══ CONTACTO ═══ */
+    .contact { background: var(--yellow-lt); padding: 68px 24px; border-top: 2px solid var(--border); }
+    .contact-in { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .cf-box {
+      background: var(--white); border: 2px solid var(--ink);
+      border-radius: 18px; padding: 32px;
+      box-shadow: 5px 5px 0 var(--ink);
+    }
+    .cf-box h3 { font-family: var(--fd); font-size: 26px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+    .cf-box > p { font-size: 13px; color: var(--ink-mu); margin-bottom: 22px; line-height: 1.6; font-weight: 600; }
+    .fg { margin-bottom: 16px; }
+    .fl { display: block; font-size: 12px; font-weight: 800; color: var(--ink); margin-bottom: 6px; letter-spacing: 0.03em; text-transform: uppercase; }
+    .fi, .ft {
+      width: 100%; font-family: var(--fb); font-size: 14px; color: var(--ink);
+      background: var(--grid-bg); border: 2px solid var(--border);
+      border-radius: 10px; padding: 11px 14px; outline: none;
+      transition: border-color 0.18s, box-shadow 0.18s;
+      font-weight: 600;
+    }
+    .fi:focus, .ft:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(78,205,196,0.18); background: var(--white); }
+    .ft { resize: vertical; min-height: 110px; }
+    .cf-note { font-size: 11px; color: var(--ink-mu); margin-bottom: 16px; line-height: 1.55; font-weight: 600; }
+    .cf-note button { background: none; border: none; color: var(--blue); font-size: 11px; cursor: pointer; text-decoration: underline; font-family: var(--fb); padding: 0; font-weight: 700; }
+    .cf-sub {
+      width: 100%; background: var(--yellow); color: var(--ink);
+      font-family: var(--fb); font-size: 14px; font-weight: 800;
+      padding: 13px 24px; border-radius: 10px;
+      border: 2px solid var(--ink); cursor: pointer;
+      box-shadow: 3px 3px 0 var(--ink);
+      transition: all 0.18s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .cf-sub:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 var(--ink); }
+    .cf-ok {
+      display: none; background: var(--green-lt);
+      border: 2px solid var(--green); border-radius: 10px;
+      padding: 16px; text-align: center; color: #2A7A35;
+      font-size: 14px; font-weight: 800; margin-top: 14px;
+    }
+    .cinfo h3 { font-family: var(--fd); font-size: 26px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+    .cinfo > p { font-size: 13.5px; color: var(--ink-mu); line-height: 1.7; margin-bottom: 26px; font-weight: 600; }
+    .ci-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+    .ci-ic {
+      width: 42px; height: 42px;
+      background: var(--white); border: 2px solid var(--ink);
+      border-radius: 10px; box-shadow: 2px 2px 0 var(--ink);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .ci-lb { font-size: 10px; font-weight: 800; color: var(--ink-mu); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 3px; }
+    .ci-vl { font-size: 13.5px; color: var(--ink); font-weight: 700; }
+    .ci-vl a { color: var(--blue); text-decoration: none; }
+    .ci-vl a:hover { text-decoration: underline; }
+    .anti-ph {
+      background: #FFFBEB; border: 2px solid #FDE68A;
+      border-radius: 10px; padding: 14px 16px; margin-top: 22px;
+    }
+    .anti-ph p { font-size: 12px; color: #92601A; line-height: 1.6; font-weight: 600; }
+
+    /* ═══ FOOTER ═══ */
+    .ftr { background: var(--ink); padding: 56px 24px 0; }
+    .ftr-in { max-width: 1180px; margin: 0 auto; }
+    .ftr-aff {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-left: 3px solid var(--yellow); border-radius: 10px;
+      padding: 14px 18px; margin-bottom: 44px;
+    }
+    .ftr-aff p { font-size: 12px; color: rgba(255,255,255,0.45); line-height: 1.65; }
+    .ftr-aff strong { color: rgba(255,255,255,0.72); }
+    .ftr-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 44px; padding-bottom: 44px; }
+    .ftr-ln { font-family: var(--fd); font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .ftr-ls { font-size: 10px; color: rgba(255,255,255,0.28); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 14px; }
+    .ftr-ab { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.7; margin-bottom: 18px; font-weight: 600; }
+    .ftr-ci { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; color: rgba(255,255,255,0.45); margin-bottom: 8px; line-height: 1.45; font-weight: 600; }
+    .ftr-ci a { color: rgba(255,255,255,0.55); text-decoration: none; transition: color 0.18s; }
+    .ftr-ci a:hover { color: var(--yellow); }
+    .ftr-ct { font-size: 10px; font-weight: 800; color: rgba(255,255,255,0.28); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .ftr-lk { list-style: none; }
+    .ftr-lk li { margin-bottom: 9px; }
+    .ftr-lk a { font-size: 13.5px; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.18s; display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+    .ftr-lk a:hover { color: var(--yellow); }
+    .ftr-lk button { background: none; border: none; cursor: pointer; font-size: 13.5px; color: rgba(255,255,255,0.5); transition: color 0.18s; font-family: var(--fb); padding: 0; text-align: left; display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+    .ftr-lk button:hover { color: var(--yellow); }
+    .ftr-ads { margin-top: 18px; padding: 13px; background: rgba(255,211,61,0.1); border: 1px solid rgba(255,211,61,0.2); border-radius: 10px; }
+    .ftr-ads p { font-size: 11px; color: rgba(255,255,255,0.45); line-height: 1.6; font-weight: 600; }
+    .ftr-ads strong { color: var(--yellow); }
+    .ftr-bot { border-top: 1px solid rgba(255,255,255,0.08); padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .ftr-bot p { font-size: 12px; color: rgba(255,255,255,0.26); font-weight: 600; }
+
+    /* ═══ OVERLAYS ARTÍCULOS ═══ */
+    .aov { display: none; position: fixed; inset: 0; z-index: 500; background: rgba(10,10,10,0.7); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 20px; }
+    .aov.open { display: flex; animation: fi 0.2s ease; }
+    @keyframes fi { from { opacity: 0; } to { opacity: 1; } }
+    .aov-box { background: var(--white); border: 2px solid var(--ink); border-radius: 20px; max-width: 740px; width: 100%; max-height: 90vh; overflow-y: auto; box-shadow: 8px 8px 0 var(--ink); animation: su 0.25s cubic-bezier(0.4,0,0.2,1); }
+    @keyframes su { from { transform: translateY(16px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .aov-hdr { padding: 24px 28px 18px; border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--white); z-index: 1; border-radius: 20px 20px 0 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+    .aov-tt { font-family: var(--fd); font-size: 22px; font-weight: 700; color: var(--ink); line-height: 1.3; }
+    .aov-mt { font-size: 11.5px; color: var(--ink-mu); margin-top: 6px; font-weight: 700; }
+    .aov-cl { width: 36px; height: 36px; background: var(--yellow); border: 2px solid var(--ink); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--ink); font-size: 16px; font-weight: 800; font-family: var(--fb); flex-shrink: 0; box-shadow: 2px 2px 0 var(--ink); transition: all 0.18s; }
+    .aov-cl:hover { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 var(--ink); }
+    .aov-bd { padding: 26px 28px 30px; }
+    .aov-bd h2 { font-family: var(--fd); font-size: 19px; font-weight: 700; color: var(--ink); margin: 22px 0 10px; padding-left: 12px; border-left: 4px solid var(--yellow); }
+    .aov-bd h2:first-child { margin-top: 0; }
+    .aov-bd p { font-size: 14px; color: var(--ink-mid); line-height: 1.82; margin-bottom: 14px; font-weight: 500; }
+    .aov-bd ul, .aov-bd ol { padding-left: 20px; margin-bottom: 14px; }
+    .aov-bd li { font-size: 14px; color: var(--ink-mid); line-height: 1.75; margin-bottom: 6px; font-weight: 500; }
+    .aov-bd strong { color: var(--ink); font-weight: 800; }
+    .aov-tip { background: var(--yellow-lt); border: 2px solid var(--yellow); border-radius: 12px; padding: 14px 16px; margin: 18px 0; font-size: 13.5px; color: var(--ink-mid); line-height: 1.65; font-weight: 600; }
+    .aov-tip strong { color: #7A5F00; }
+    .aov-nc { font-size: 11.5px; color: var(--ink-mu); font-style: italic; margin-top: 24px; padding-top: 14px; border-top: 2px dashed var(--border); font-weight: 600; }
+
+    /* ═══ OVERLAYS LEGALES ═══ */
+    .lov { display: none; position: fixed; inset: 0; z-index: 600; background: rgba(10,10,10,0.7); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 20px; }
+    .lov.open { display: flex; animation: fi 0.2s ease; }
+    .lov-box { background: var(--white); border: 2px solid var(--ink); border-radius: 20px; max-width: 680px; width: 100%; max-height: 88vh; overflow-y: auto; box-shadow: 8px 8px 0 var(--ink); animation: su 0.25s cubic-bezier(0.4,0,0.2,1); }
+    .lov-hdr { padding: 22px 26px 16px; border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--white); z-index: 1; border-radius: 20px 20px 0 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+    .lov-tt { font-family: var(--fd); font-size: 20px; font-weight: 700; color: var(--ink); }
+    .lov-mt { font-size: 11px; color: var(--ink-mu); margin-top: 4px; font-weight: 700; }
+    .lov-cl { width: 36px; height: 36px; background: var(--yellow); border: 2px solid var(--ink); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--ink); font-size: 16px; font-weight: 800; font-family: var(--fb); flex-shrink: 0; box-shadow: 2px 2px 0 var(--ink); transition: all 0.18s; }
+    .lov-cl:hover { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 var(--ink); }
+    .lov-bd { padding: 22px 26px 28px; }
+    .lov-sec { margin-bottom: 20px; }
+    .lov-sec:last-child { margin-bottom: 0; }
+    .lov-sec h3 { font-size: 12px; font-weight: 800; color: var(--ink); text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 9px; padding-left: 10px; border-left: 4px solid var(--yellow); }
+    .lov-sec p { font-size: 13.5px; color: var(--ink-mid); line-height: 1.75; font-weight: 500; }
+    .lov-sec a { color: var(--blue); }
+
+    /* ═══ COOKIE ═══ */
+    .cook { position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%); z-index: 700; background: var(--ink); border: 2px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 17px 22px; display: flex; align-items: center; gap: 18px; box-shadow: 5px 5px 0 rgba(255,211,61,0.3); max-width: min(680px,calc(100vw - 32px)); width: 100%; animation: su 0.4s cubic-bezier(0.4,0,0.2,1); }
+    .cook.hidden { display: none !important; }
+    .cook-tx { flex: 1; font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.5; font-weight: 600; }
+    .cook-tx button { background: none; border: none; color: var(--yellow); font-size: 13px; font-family: var(--fb); cursor: pointer; text-decoration: underline; padding: 0; font-weight: 700; }
+    .cook-btn { background: var(--yellow); color: var(--ink); font-family: var(--fb); font-size: 13px; font-weight: 800; padding: 10px 22px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.2); cursor: pointer; white-space: nowrap; flex-shrink: 0; transition: opacity 0.18s; }
+    .cook-btn:hover { opacity: 0.88; }
+
+    /* ═══ RESPONSIVE ═══ */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-side { flex-direction: row; flex-wrap: wrap; }
+      .id-note, .owner-card { flex: 1; min-width: 260px; }
+      .arts-grid { grid-template-columns: repeat(2,1fr); }
+      .postit.feat { grid-column: span 2; }
+      .about-in { grid-template-columns: 1fr; }
+      .ftr-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+    }
+    @media (max-width: 768px) {
+      .nav { display: none; }
+      .ham { display: flex; }
+      .hero { margin: 20px auto; }
+      .hero-main { padding: 32px 28px; }
+      .arts-grid { grid-template-columns: 1fr; }
+      .postit.feat { grid-column: span 1; flex-direction: column; }
+      .contact-in { grid-template-columns: 1fr; }
+      .ftr-grid { grid-template-columns: 1fr; gap: 24px; }
+      .aov-hdr, .aov-bd, .lov-hdr, .lov-bd { padding: 18px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="hi">Blog independiente · No afiliado a ninguna entidad</span>
+  <span class="sep">·</span>
+  <span>Solo contenido informativo y educativo</span>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-in">
+    <a href="#inicio" class="logo">
+      <div class="logo-mark">P</div>
+      <div>
+        <div class="logo-name">Provinet Empresa Rol</div>
+        <div class="logo-sub">Blog educativo · Organización para negocios</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="#articulos">Artículos</a>
+      <a href="#acerca">Acerca de</a>
+      <a href="#contacto" class="nav-cta">Contacto</a>
+    </nav>
+    <button class="ham" id="ham-btn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MENÚ MÓVIL -->
+<div id="mob-menu" style="display:none;position:fixed;top:112px;left:0;right:0;background:var(--white);border-bottom:3px solid var(--yellow);box-shadow:0 8px 32px rgba(0,0,0,0.10);z-index:190;padding:14px 24px;flex-direction:column;gap:4px;">
+  <a href="#articulos" onclick="closeMob()" style="font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;color:var(--ink);padding:12px 16px;border-radius:10px;text-decoration:none;display:block;">Artículos</a>
+  <a href="#acerca"    onclick="closeMob()" style="font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;color:var(--ink);padding:12px 16px;border-radius:10px;text-decoration:none;display:block;">Acerca de</a>
+  <a href="#contacto"  onclick="closeMob()" style="font-family:'Nunito',sans-serif;font-size:15px;font-weight:800;color:var(--ink);background:var(--yellow);border:2px solid var(--ink);padding:12px 16px;border-radius:10px;text-decoration:none;display:block;box-shadow:2px 2px 0 var(--ink);">Contacto</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-main">
+    <div class="hero-spiral" aria-hidden="true">
+      <div class="spiral-dot"></div><div class="spiral-dot"></div><div class="spiral-dot"></div>
+      <div class="spiral-dot"></div><div class="spiral-dot"></div><div class="spiral-dot"></div>
+      <div class="spiral-dot"></div><div class="spiral-dot"></div>
+    </div>
+    <div class="hero-body">
+      <div class="hero-sticker">✏️ Educación para emprendedores</div>
+      <h1 class="hero-h1">Organiza tu negocio<br/><mark>como un profesional</mark></h1>
+      <p class="hero-p">Guía educativa gratuita sobre productividad, organización semanal, gestión de proveedores y herramientas para dueños de pequeños negocios en Venezuela y Latinoamérica.</p>
+      <div class="hero-btns">
+        <a href="#articulos" class="btn-y">📋 Ver artículos</a>
+        <a href="#acerca" class="btn-w">¿Quién lo escribe? →</a>
+      </div>
+      <div class="hero-checks">
+        <div class="hck"><div class="hck-box">✓</div> Blog 100% gratuito e independiente</div>
+        <div class="hck"><div class="hck-box">✓</div> No vende servicios ni productos</div>
+        <div class="hck"><div class="hck-box">✓</div> No es web oficial de ninguna entidad</div>
+        <div class="hck"><div class="hck-box">✓</div> Operado por: CHRISTIAN DAVID BUSTOS VELASCO</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-side">
+    <div class="id-note">
+      <div class="id-note-tt">📋 ¿Qué es este blog?</div>
+      <div class="id-row"><span>🌐</span> Blog educativo independiente</div>
+      <div class="id-row"><span>📍</span> Maracay, Venezuela</div>
+      <div class="id-row"><span>📖</span> Solo contenido informativo</div>
+      <div class="id-div"></div>
+      <div class="id-no">
+        <div class="id-no-tt">❌ Esto NO es este blog</div>
+        <div class="id-no-row"><span>❌</span> No presta servicios</div>
+        <div class="id-no-row"><span>❌</span> No vende productos</div>
+        <div class="id-no-row"><span>❌</span> No es web de ningún banco</div>
+      </div>
+    </div>
+    <div class="owner-card">
+      <div class="owner-av">C</div>
+      <div>
+        <div class="owner-name">CHRISTIAN DAVID BUSTOS VELASCO</div>
+        <div class="owner-role">Titular · Maracay, Aragua, Venezuela</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ADS -->
+<div class="ads"><div class="ads-box">Espacio publicitario · Google AdSense</div></div>
+
+<!-- ARTÍCULOS -->
+<main class="arts-sec" id="articulos">
+  <div class="sec-hd">
+    <div>
+      <h2 class="sec-tt"><span>Artículos del blog</span></h2>
+    </div>
+    <p class="sec-ds">Contenido solo informativo.<br/>No constituye asesoría personalizada.</p>
+  </div>
+
+  <div class="arts-grid">
+
+    <!-- DESTACADO -->
+    <div class="postit postit-y feat" onclick="openA('a1')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a1')">
+      <div class="feat-icon">📅</div>
+      <div style="flex:1;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+          <span class="tag tag-y">Organización</span>
+          <span class="postit-date">1 jun 2025</span>
+        </div>
+        <div class="postit-title">Cómo organizar tu semana laboral como dueño de negocio: guía práctica</div>
+        <p class="postit-exc">Sin una semana bien planificada, el negocio te consume en vez de avanzar. Te mostramos un método simple para distribuir tu tiempo entre producción, ventas, administración y descanso.</p>
+        <div class="postit-foot">
+          <span class="postit-auth">Por: <strong>CHRISTIAN DAVID BUSTOS VELASCO</strong></span>
+          <span class="postit-cta">Leer →</span>
+        </div>
+        <p class="postit-notice">Contenido informativo. No constituye asesoría personalizada.</p>
+      </div>
+    </div>
+
+    <!-- ART 2 -->
+    <div class="postit postit-b" onclick="openA('a2')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a2')">
+      <div class="postit-num">02</div>
+      <span class="tag tag-b">Proveedores</span>
+      <div class="postit-date">8 jun 2025</div>
+      <div class="postit-title">Cómo gestionar proveedores y pagos pendientes sin perder el control</div>
+      <p class="postit-exc">Un proveedor mal gestionado puede paralizar tu negocio. Te enseñamos a llevar un registro simple de proveedores, fechas de pago y condiciones de compra.</p>
+      <div class="postit-foot">
+        <span class="postit-auth">Por: <strong>C. D. BUSTOS V.</strong></span>
+        <span class="postit-cta">Leer →</span>
+      </div>
+      <p class="postit-notice">Contenido informativo. No asesoría personalizada.</p>
+    </div>
+
+    <!-- ART 3 -->
+    <div class="postit postit-p" onclick="openA('a3')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a3')">
+      <div class="postit-num">03</div>
+      <span class="tag tag-p">Agenda</span>
+      <div class="postit-date">15 jun 2025</div>
+      <div class="postit-title">Cómo crear una agenda de negocio simple que realmente funcione</div>
+      <p class="postit-exc">La diferencia entre una agenda que acumula polvo y una que transforma tu negocio está en la estructura. Te mostramos cómo armar la tuya desde cero.</p>
+      <div class="postit-foot">
+        <span class="postit-auth">Por: <strong>C. D. BUSTOS V.</strong></span>
+        <span class="postit-cta">Leer →</span>
+      </div>
+      <p class="postit-notice">Contenido informativo. No asesoría personalizada.</p>
+    </div>
+
+    <!-- ART 4 -->
+    <div class="postit postit-g" onclick="openA('a4')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a4')">
+      <div class="postit-num">04</div>
+      <span class="tag tag-g">Herramientas</span>
+      <div class="postit-date">22 jun 2025</div>
+      <div class="postit-title">5 herramientas gratuitas de organización para pequeños negocios</div>
+      <p class="postit-exc">No necesitas pagar por software caro para organizar tu negocio. Repasamos cinco herramientas gratuitas y cómo sacarles el máximo partido sin complicaciones.</p>
+      <div class="postit-foot">
+        <span class="postit-auth">Por: <strong>C. D. BUSTOS V.</strong></span>
+        <span class="postit-cta">Leer →</span>
+      </div>
+      <p class="postit-notice">Contenido informativo. No asesoría personalizada.</p>
+    </div>
+
+    <!-- ART 5 -->
+    <div class="postit postit-pu" onclick="openA('a5')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a5')">
+      <div class="postit-num">05</div>
+      <span class="tag tag-pu">Tiempo</span>
+      <div class="postit-date">1 jul 2025</div>
+      <div class="postit-title">Errores de gestión del tiempo que frenan el crecimiento de tu negocio</div>
+      <p class="postit-exc">Trabajar muchas horas no es lo mismo que trabajar bien. Identificamos los errores más comunes de gestión del tiempo en pequeños negocios y cómo corregirlos.</p>
+      <div class="postit-foot">
+        <span class="postit-auth">Por: <strong>C. D. BUSTOS V.</strong></span>
+        <span class="postit-cta">Leer →</span>
+      </div>
+      <p class="postit-notice">Contenido informativo. No asesoría personalizada.</p>
+    </div>
+
+    <!-- ART 6 -->
+    <div class="postit postit-y" onclick="openA('a6')" role="article" tabindex="0" onkeypress="if(event.key==='Enter')openA('a6')">
+      <div class="postit-num">06</div>
+      <span class="tag tag-y">Productividad</span>
+      <div class="postit-date">8 jul 2025</div>
+      <div class="postit-title">Qué es la regla del 80/20 y cómo aplicarla en tu negocio hoy</div>
+      <p class="postit-exc">El 80% de tus resultados viene del 20% de tus acciones. Entender esto cambia radicalmente cómo decides en qué enfocarte cada semana en tu negocio.</p>
+      <div class="postit-foot">
+        <span class="postit-auth">Por: <strong>C. D. BUSTOS V.</strong></span>
+        <span class="postit-cta">Leer →</span>
+      </div>
+      <p class="postit-notice">Contenido informativo. No asesoría personalizada.</p>
+    </div>
+
+  </div>
+</main>
+
+<!-- ADS MID -->
+<div class="ads" style="padding-bottom:0;padding-top:0;margin-bottom:0;"><div class="ads-box">Espacio publicitario · Google AdSense</div></div>
+
+<!-- ACERCA DE -->
+<section class="about" id="acerca">
+  <div class="about-in">
+    <div>
+      <h2 class="sec-tt" style="margin-bottom:24px;"><span>Acerca de este blog</span></h2>
+      <p style="font-size:15px;color:var(--ink-mid);line-height:1.82;margin-bottom:16px;font-weight:500;"><strong>Provinet Empresa Rol</strong> es un blog educativo independiente dedicado a la organización y productividad para dueños de pequeños negocios en Venezuela y Latinoamérica.</p>
+      <p style="font-size:15px;color:var(--ink-mid);line-height:1.82;margin-bottom:16px;font-weight:500;">Todo el contenido es gratuito, informativo y educativo. No somos consultores, no prestamos asesoría personalizada y no vendemos ningún producto ni servicio.</p>
+      <p style="font-size:15px;color:var(--ink-mid);line-height:1.82;margin-bottom:24px;font-weight:500;">Creemos que un negocio organizado es un negocio que crece. Nuestra misión es poner esa organización al alcance de todos.</p>
+      <div style="background:var(--yellow-lt);border:2px solid var(--yellow);border-radius:14px;padding:20px 22px;box-shadow:3px 3px 0 rgba(0,0,0,0.08);">
+        <p style="font-size:12px;font-weight:800;color:#7A5F00;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;">🎯 Objetivo editorial</p>
+        <p style="font-size:13.5px;color:var(--ink-mid);line-height:1.7;font-weight:600;">Publicar contenido verificable sobre organización, productividad y gestión del tiempo para emprendedores. La publicidad de Google AdSense mostrada en este sitio no influye en los temas ni en el contenido publicado.</p>
+      </div>
+    </div>
+    <div class="about-paper">
+      <div class="about-avatar">C</div>
+      <div class="about-name">CHRISTIAN DAVID BUSTOS VELASCO</div>
+      <div class="about-role">Titular y responsable editorial</div>
+      <div class="about-ci"><span>📍</span><span>Calle 132, Maracay 2002, Venezuela</span></div>
+      <div class="about-ci"><span>✉️</span><a href="mailto:soporte@provinetempresarol.blog">soporte@provinetempresarol.blog</a></div>
+      <div class="about-ci"><span>📞</span><a href="tel:+584145417485">+58 414 5417485</a></div>
+      <div class="about-ind">
+        <p><strong>Declaración de independencia:</strong> Este blog no tiene afiliación, vínculo comercial ni representación oficial con ningún banco, institución financiera, gobierno ni organización privada de ningún tipo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact" id="contacto">
+  <div class="contact-in">
+    <div class="cf-box">
+      <h3>✉️ Escríbenos</h3>
+      <p>Solo consultas editoriales. No prestamos asesoría ni consultoría por este medio.</p>
+      <form id="cf" onsubmit="enviar(event)" novalidate>
+        <div class="fg"><label class="fl" for="fn">Nombre</label><input class="fi" type="text" id="fn" placeholder="Tu nombre completo" required autocomplete="name"/></div>
+        <div class="fg"><label class="fl" for="fe">Correo electrónico</label><input class="fi" type="email" id="fe" placeholder="tucorreo@ejemplo.com" required autocomplete="email"/></div>
+        <div class="fg"><label class="fl" for="fm">Mensaje</label><textarea class="ft" id="fm" placeholder="Escribe tu consulta editorial aquí..." required></textarea></div>
+        <p class="cf-note">Al enviar aceptas nuestra <button type="button" onclick="openL('lp')">política de privacidad</button>. No pedimos contraseñas, datos bancarios ni documentos de identidad.</p>
+        <button type="submit" class="cf-sub">✉️ Enviar mensaje</button>
+      </form>
+      <div class="cf-ok" id="cf-ok">✅ ¡Mensaje recibido! Te responderemos a la brevedad.</div>
+    </div>
+    <div class="cinfo">
+      <h3>📍 Datos de contacto</h3>
+      <p>Puedes contactarnos directamente para consultas editoriales por cualquiera de estos medios.</p>
+      <div class="ci-item"><div class="ci-ic">👤</div><div><div class="ci-lb">Titular</div><div class="ci-vl">CHRISTIAN DAVID BUSTOS VELASCO</div></div></div>
+      <div class="ci-item"><div class="ci-ic">✉️</div><div><div class="ci-lb">Correo</div><div class="ci-vl"><a href="mailto:soporte@provinetempresarol.blog">soporte@provinetempresarol.blog</a></div></div></div>
+      <div class="ci-item"><div class="ci-ic">📞</div><div><div class="ci-lb">Teléfono / WhatsApp</div><div class="ci-vl"><a href="tel:+584145417485">+58 414 5417485</a></div></div></div>
+      <div class="ci-item"><div class="ci-ic">📍</div><div><div class="ci-lb">Dirección</div><div class="ci-vl">Calle 132, Maracay 2002, Venezuela</div></div></div>
+      <div class="anti-ph"><p><strong>⚠️ Aviso anti-phishing:</strong> Este blog nunca te pedirá contraseñas, datos bancarios ni documentos de identidad. Si recibes un mensaje solicitando eso, no es de este sitio.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ftr">
+  <div class="ftr-in">
+    <div class="ftr-aff">
+      <p><strong>Declaración de independencia:</strong> Provinet Empresa Rol no tiene afiliación, vínculo comercial ni representación oficial con ningún banco, institución financiera, gobierno ni organización privada. Todo el contenido es exclusivamente informativo y educativo, producido de forma independiente por CHRISTIAN DAVID BUSTOS VELASCO.</p>
+    </div>
+    <div class="ftr-grid">
+      <div>
+        <div class="ftr-ln">Provinet Empresa Rol</div>
+        <div class="ftr-ls">Blog educativo independiente</div>
+        <p class="ftr-ab">Blog sobre organización y productividad para pequeños negocios. Contenido gratuito e independiente.</p>
+        <div class="ftr-ci"><span>👤</span><span><strong style="color:rgba(255,255,255,0.65)">Titular:</strong> CHRISTIAN DAVID BUSTOS VELASCO</span></div>
+        <div class="ftr-ci"><span>✉️</span><a href="mailto:soporte@provinetempresarol.blog">soporte@provinetempresarol.blog</a></div>
+        <div class="ftr-ci"><span>📍</span><span>Calle 132, Maracay 2002, Venezuela</span></div>
+        <div class="ftr-ci"><span>📞</span><a href="tel:+584145417485">+58 414 5417485</a></div>
+      </div>
+      <div>
+        <div class="ftr-ct">Navegación</div>
+        <ul class="ftr-lk">
+          <li><a href="#inicio">→ Inicio</a></li>
+          <li><a href="#articulos">→ Artículos</a></li>
+          <li><a href="#acerca">→ Acerca de</a></li>
+          <li><a href="#contacto">→ Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="ftr-ct">Categorías</div>
+        <ul class="ftr-lk">
+          <li><a href="#articulos">→ Organización</a></li>
+          <li><a href="#articulos">→ Proveedores</a></li>
+          <li><a href="#articulos">→ Agenda</a></li>
+          <li><a href="#articulos">→ Herramientas</a></li>
+          <li><a href="#articulos">→ Productividad</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="ftr-ct">Legal y políticas</div>
+        <ul class="ftr-lk">
+          <li><button onclick="openL('lp')">→ Política de privacidad</button></li>
+          <li><button onclick="openL('la')">→ Aviso legal</button></li>
+          <li><button onclick="openL('le')" id="politica-editorial">→ Política editorial</button></li>
+        </ul>
+        <div class="ftr-ads"><p><strong>Publicidad:</strong> Este blog muestra anuncios de Google AdSense. La publicidad no influye en el contenido editorial.</p></div>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <p>© 2025 Provinet Empresa Rol — CHRISTIAN DAVID BUSTOS VELASCO. Todos los derechos reservados.</p>
+      <p>Contenido solo informativo · No asesoría personalizada</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ OVERLAYS ARTÍCULOS ══ -->
+
+<!-- A1 -->
+<div id="a1" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-y">Organización</span></div><div class="aov-tt">Cómo organizar tu semana laboral como dueño de negocio: guía práctica</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 1 de junio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a1')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>¿Por qué planificar la semana si "ya sé lo que tengo que hacer"?</h2>
+      <p>Muchos dueños de negocios operan en modo reactivo: responden lo que llega, atienden lo urgente y al final de la semana sienten que trabajaron mucho pero avanzaron poco. La planificación semanal cambia ese patrón.</p>
+      <p>No se trata de llenar una agenda con cada minuto de tu día. Se trata de decidir con anticipación en qué vas a enfocar tu energía antes de que el caos del día a día decida por ti.</p>
+      <div class="aov-tip"><strong>💡 Dato clave:</strong> Los dueños de negocio que planifican su semana con anticipación reportan mayor sensación de control y menos decisiones impulsivas que afectan las finanzas del negocio.</div>
+      <h2>Los 4 bloques de tiempo de un negocio</h2>
+      <p>Toda semana laboral de un pequeño negocio tiene cuatro tipos de actividades que necesitan tiempo asignado:</p>
+      <ul>
+        <li><strong>Producción:</strong> fabricar, preparar, atender clientes directamente.</li>
+        <li><strong>Ventas y marketing:</strong> conseguir clientes nuevos, publicar en redes, cotizar.</li>
+        <li><strong>Administración:</strong> registrar movimientos de dinero, pagar proveedores, revisar inventario.</li>
+        <li><strong>Desarrollo:</strong> aprender algo nuevo, planificar el mes, mejorar un proceso.</li>
+      </ul>
+      <h2>Un método simple para empezar</h2>
+      <p>Cada domingo por la noche o lunes por la mañana, dedica 20 minutos a responder estas tres preguntas: ¿Cuáles son las 3 cosas más importantes que debo lograr esta semana? ¿Qué días haré cada una? ¿Qué podría interrumpirme y cómo lo manejaré?</p>
+      <div class="aov-tip"><strong>📌 Regla práctica:</strong> No planifiques más de 3 prioridades semanales. Quien tiene 10 prioridades no tiene ninguna.</div>
+      <h2>Cómo distribuir los días</h2>
+      <p>Una distribución que funciona para muchos pequeños negocios: lunes para planificar y administrar, martes y miércoles para producción intensa, jueves para ventas y atención a clientes, viernes para revisar resultados de la semana y preparar la siguiente.</p>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada. Adapta estas sugerencias a las necesidades específicas de tu negocio.</p>
+    </div>
+  </div>
+</div>
+
+<!-- A2 -->
+<div id="a2" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-b">Proveedores</span></div><div class="aov-tt">Cómo gestionar proveedores y pagos pendientes sin perder el control</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 8 de junio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a2')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>El problema de no tener control de proveedores</h2>
+      <p>Un proveedor que entrega tarde, que cambia los precios sin avisar o al que le debes dinero sin recordar cuánto: cualquiera de estas situaciones puede paralizar tu negocio o dañar relaciones comerciales importantes.</p>
+      <h2>Crea tu lista de proveedores activos</h2>
+      <p>El primer paso es tener una lista simple de todos tus proveedores activos con estos datos básicos: nombre del proveedor o empresa, producto o servicio que te vende, teléfono de contacto, condiciones de pago (contado, 15 días, 30 días), y fecha del último pedido.</p>
+      <div class="aov-tip"><strong>💡 Herramienta gratuita:</strong> Una hoja de cálculo de Google Sheets es suficiente para mantener este registro. No necesitas software especializado.</div>
+      <h2>Cómo gestionar los pagos pendientes</h2>
+      <p>Separa tus deudas con proveedores en tres categorías: vencidas (ya debías haber pagado), próximas a vencer (en los próximos 7 días), y a mediano plazo (entre 8 y 30 días). Revisa esta lista cada lunes por la mañana.</p>
+      <h2>Reglas básicas para no perder el control</h2>
+      <ul>
+        <li>Nunca pidas un pedido nuevo si aún tienes una deuda vencida con ese proveedor.</li>
+        <li>Anota cada pago el mismo día que lo realizas.</li>
+        <li>Guarda los comprobantes de pago organizados por mes.</li>
+        <li>Revisa las condiciones de precio al menos cada tres meses.</li>
+      </ul>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- A3 -->
+<div id="a3" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-p">Agenda</span></div><div class="aov-tt">Cómo crear una agenda de negocio simple que realmente funcione</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 15 de junio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a3')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>Por qué la mayoría de las agendas no funcionan</h2>
+      <p>La mayoría de las personas que "no pueden con la agenda" no tienen un problema de disciplina: tienen un problema de diseño. Una agenda que no se adapta a cómo realmente funciona tu negocio está destinada a abandonarse.</p>
+      <h2>Los elementos de una agenda efectiva para un negocio</h2>
+      <ul>
+        <li><strong>Fecha y día de la semana</strong> visibles en cada página.</li>
+        <li><strong>Bloque de tareas del día</strong> con no más de 5 ítems prioritarios.</li>
+        <li><strong>Seguimiento de cobros pendientes</strong> del día.</li>
+        <li><strong>Gastos del día</strong> con monto aproximado.</li>
+        <li><strong>Notas rápidas</strong> para ideas, llamadas o recordatorios.</li>
+      </ul>
+      <div class="aov-tip"><strong>💡 Consejo:</strong> No intentes registrar todo en la agenda. La agenda es para las acciones del día, no para el historial del negocio. Para eso existe el registro de ingresos y gastos.</div>
+      <h2>Agenda física vs digital: ¿cuál elegir?</h2>
+      <p>Si tienes el hábito de revisar el celular constantemente, una app como Google Calendar o Notion puede funcionar bien. Si trabajas en un local sin buena conectividad o prefieres escribir a mano, una agenda física de bolsillo es más confiable.</p>
+      <h2>El hábito de cierre diario</h2>
+      <p>Cada día, antes de cerrar el negocio, dedica 5 minutos a: marcar lo que hiciste, mover lo que quedó pendiente al día siguiente, y anotar algo que aprendiste o que podrías hacer mejor mañana.</p>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- A4 -->
+<div id="a4" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-g">Herramientas</span></div><div class="aov-tt">5 herramientas gratuitas de organización para pequeños negocios</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 22 de junio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a4')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>¿Realmente necesito una app para organizar mi negocio?</h2>
+      <p>No necesariamente. Pero si ya llevas un cuaderno y sientes que necesitas más estructura, visibilidad o posibilidad de acceder a tus datos desde cualquier lugar, una herramienta digital gratuita puede ayudarte mucho.</p>
+      <div class="aov-tip"><strong>⚠️ Nota:</strong> Provinet Empresa Rol no tiene afiliación comercial con ninguna de las herramientas mencionadas. Las referencias son exclusivamente informativas y educativas.</div>
+      <h2>1. Google Sheets</h2>
+      <p>Una hoja de cálculo en la nube, gratuita y accesible desde cualquier dispositivo. Ideal para registro de ingresos y gastos, lista de proveedores, inventario básico y seguimiento de pagos pendientes.</p>
+      <h2>2. Google Calendar</h2>
+      <p>Calendario gratuito que sincroniza en todos tus dispositivos. Permite crear recordatorios de pagos a proveedores, citas con clientes y bloques de tiempo de trabajo.</p>
+      <h2>3. Trello (versión gratuita)</h2>
+      <p>Tablero visual de tareas estilo kanban. Útil para gestionar proyectos con varias etapas: "pendiente", "en proceso", "terminado". La versión gratuita es suficiente para un negocio pequeño.</p>
+      <h2>4. WhatsApp Business</h2>
+      <p>La versión empresarial de WhatsApp permite crear un catálogo de productos, configurar respuestas automáticas y separar la comunicación del negocio de la personal, todo de forma gratuita.</p>
+      <h2>5. Notion (versión gratuita)</h2>
+      <p>Herramienta todo en uno donde puedes tener tu agenda, tus notas, tu lista de tareas y tus bases de datos de clientes y proveedores en un solo lugar. Tiene curva de aprendizaje, pero vale la pena.</p>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada. Las herramientas mencionadas son de terceros; consulta sus condiciones de uso directamente con cada proveedor.</p>
+    </div>
+  </div>
+</div>
+
+<!-- A5 -->
+<div id="a5" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-pu">Tiempo</span></div><div class="aov-tt">Errores de gestión del tiempo que frenan el crecimiento de tu negocio</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 1 de julio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a5')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>Error 1: Confundir estar ocupado con ser productivo</h2>
+      <p>Estar ocupado todo el día no significa que estás haciendo las cosas que realmente hacen crecer tu negocio. Es posible trabajar 12 horas diarias haciendo tareas de bajo impacto mientras las importantes quedan sin atención.</p>
+      <div class="aov-tip"><strong>✅ Corrección:</strong> Al inicio de cada semana, identifica las 3 acciones que tendrían el mayor impacto positivo en tu negocio. Asegúrate de que al menos 2 de ellas se hagan antes del miércoles.</div>
+      <h2>Error 2: No proteger el tiempo de trabajo profundo</h2>
+      <p>Atender interrupciones constantemente (mensajes, llamadas, visitas) fragmenta el tiempo de trabajo y reduce drásticamente la calidad del resultado. Los trabajos importantes necesitan bloques de tiempo sin interrupciones.</p>
+      <h2>Error 3: No delegar lo que se puede delegar</h2>
+      <p>Muchos dueños de negocio hacen todo ellos mismos porque "nadie lo hace igual". Esto genera un cuello de botella: el negocio no puede crecer más de lo que una persona puede atender sola.</p>
+      <h2>Error 4: Revisar el teléfono sin control</h2>
+      <p>Las notificaciones constantes son una de las principales causas de baja productividad en dueños de negocios. Cada vez que revisas el teléfono por un mensaje de WhatsApp, tu cerebro necesita varios minutos para volver a concentrarse en lo que estaba haciendo.</p>
+      <h2>Error 5: No tener un horario de cierre real</h2>
+      <p>Un negocio sin horario de cierre consume toda la vida personal del dueño. Esto genera agotamiento a largo plazo que afecta la toma de decisiones, la creatividad y la salud.</p>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- A6 -->
+<div id="a6" class="aov">
+  <div class="aov-box">
+    <div class="aov-hdr">
+      <div><div style="margin-bottom:8px;"><span class="tag tag-y">Productividad</span></div><div class="aov-tt">Qué es la regla del 80/20 y cómo aplicarla en tu negocio hoy</div><div class="aov-mt">Por CHRISTIAN DAVID BUSTOS VELASCO · 8 de julio de 2025</div></div>
+      <button class="aov-cl" onclick="closeA('a6')">✕</button>
+    </div>
+    <div class="aov-bd">
+      <h2>¿Qué es el principio de Pareto?</h2>
+      <p>El economista Vilfredo Pareto observó que en muchos sistemas el 80% de los efectos proviene del 20% de las causas. En los negocios, esto se traduce en que el 80% de tus ingresos probablemente viene del 20% de tus clientes, y el 80% de tus problemas viene del 20% de tus procesos o productos.</p>
+      <div class="aov-tip"><strong>💡 Importante:</strong> El 80/20 no es una ley matemática exacta. Es un principio de observación que te ayuda a preguntarte: ¿en qué pocas cosas debería enfocarme para generar el mayor impacto?</div>
+      <h2>Cómo identificar tu 20% más valioso</h2>
+      <p>Hazte estas preguntas sobre tu negocio: ¿Cuáles son los 2 o 3 productos o servicios que generan la mayor parte de mis ingresos? ¿Cuáles son los 2 o 3 clientes que representan la mayor parte de mis ventas? ¿Cuáles son las 2 o 3 actividades que más contribuyen al crecimiento de mi negocio?</p>
+      <h2>Aplicación práctica en tu semana</h2>
+      <p>Una vez identificado tu 20% más valioso, protege ese tiempo en tu agenda. Si los 3 clientes más importantes de tu negocio merecen el 80% de tu atención, asegúrate de que tu semana refleje eso.</p>
+      <h2>El 80% que puedes simplificar o eliminar</h2>
+      <p>El otro lado del principio es igualmente valioso: el 80% de las actividades que consumen tu tiempo generan solo el 20% de los resultados. Identifícalas y pregúntate: ¿puedo delegarlas, automatizarlas, simplificarlas o eliminarlas?</p>
+      <p class="aov-nc">Contenido informativo y educativo. No constituye asesoría personalizada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ OVERLAYS LEGALES ══ -->
+
+<!-- PRIVACIDAD -->
+<div id="lp" class="lov">
+  <div class="lov-box">
+    <div class="lov-hdr"><div><div class="lov-tt">Política de Privacidad y Cookies</div><div class="lov-mt">Última actualización: 1 de junio de 2025 · Titular: CHRISTIAN DAVID BUSTOS VELASCO</div></div><button class="lov-cl" onclick="closeL('lp')">✕</button></div>
+    <div class="lov-bd">
+      <div class="lov-sec"><h3>1. Responsable</h3><p>CHRISTIAN DAVID BUSTOS VELASCO · Calle 132, Maracay 2002, Venezuela · soporte@provinetempresarol.blog</p></div>
+      <div class="lov-sec"><h3>2. Datos recopilados</h3><p>Solo los del formulario de contacto: nombre, correo y mensaje. No recopilamos contraseñas, datos bancarios ni documentos de identidad.</p></div>
+      <div class="lov-sec"><h3>3. Finalidad</h3><p>Responder consultas editoriales. No se ceden datos a terceros con fines comerciales.</p></div>
+      <div class="lov-sec"><h3>4. Cookies</h3><p>Cookies técnicas necesarias y de publicidad de Google AdSense. Puedes gestionarlas desde tu navegador. Más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de privacidad de Google</a>.</p></div>
+      <div class="lov-sec"><h3>5. Derechos</h3><p>Acceso, rectificación o eliminación de datos: soporte@provinetempresarol.blog</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- AVISO LEGAL -->
+<div id="la" class="lov">
+  <div class="lov-box">
+    <div class="lov-hdr"><div><div class="lov-tt">Aviso Legal</div><div class="lov-mt">provinetempresarol.blog · 1 de junio de 2025</div></div><button class="lov-cl" onclick="closeL('la')">✕</button></div>
+    <div class="lov-bd">
+      <div class="lov-sec"><h3>1. Titularidad</h3><p>provinetempresarol.blog es operado por CHRISTIAN DAVID BUSTOS VELASCO, Calle 132, Maracay 2002, Venezuela. Correo: soporte@provinetempresarol.blog</p></div>
+      <div class="lov-sec"><h3>2. Naturaleza del contenido</h3><p>Todo el contenido es informativo y educativo. No constituye asesoría de ningún tipo. El lector asume la responsabilidad de sus propias decisiones.</p></div>
+      <div class="lov-sec"><h3>3. Propiedad intelectual</h3><p>Los textos, diseño y logotipo son propiedad de CHRISTIAN DAVID BUSTOS VELASCO. Prohibida su reproducción sin autorización expresa.</p></div>
+      <div class="lov-sec"><h3>4. Ausencia de afiliación</h3><p>Provinet Empresa Rol no tiene afiliación con ningún banco, institución financiera ni organización privada. Cualquier mención a terceros es exclusivamente informativa.</p></div>
+      <div class="lov-sec"><h3>5. Limitación de responsabilidad</h3><p>El titular no se hace responsable de perjuicios derivados del uso de la información publicada. Verifique siempre con fuentes oficiales.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- POLÍTICA EDITORIAL -->
+<div id="le" class="lov">
+  <div class="lov-box">
+    <div class="lov-hdr"><div><div class="lov-tt">Política Editorial</div><div class="lov-mt">provinetempresarol.blog · Desde: 1 de junio de 2025</div></div><button class="lov-cl" onclick="closeL('le')">✕</button></div>
+    <div class="lov-bd">
+      <div class="lov-sec"><h3>1. Objetivo</h3><p>Publicar contenido educativo sobre organización y productividad para dueños de pequeños negocios en Venezuela y Latinoamérica.</p></div>
+      <div class="lov-sec"><h3>2. Calidad</h3><p>Todo artículo debe ser original, verificable, en lenguaje claro y revisado por el titular antes de publicarse.</p></div>
+      <div class="lov-sec"><h3>3. Independencia editorial</h3><p>La publicidad (Google AdSense) no influye en los temas tratados ni en el contenido de los artículos. Ningún anunciante tiene acceso editorial.</p></div>
+      <div class="lov-sec"><h3>4. Correcciones</h3><p>Los errores se corrigen con transparencia indicando la fecha de modificación. Notifica errores a soporte@provinetempresarol.blog</p></div>
+      <div class="lov-sec"><h3>5. Contenido prohibido</h3><p>No se publican: promesas de resultados, asesoría personalizada, publicidad encubierta ni contenido que induzca a confusión sobre la naturaleza independiente de este blog.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div id="ck" class="cook">
+  <span style="font-size:22px;flex-shrink:0;">🍪</span>
+  <p class="cook-tx">Usamos cookies técnicas y de publicidad (Google AdSense). <button onclick="openL('lp')">Ver política de cookies</button></p>
+  <button class="cook-btn" onclick="aceptar()">Entendido ✓</button>
+</div>
+
+<!-- ══ SCRIPTS ══ -->
+<script>
+  /* Artículos */
+  function openA(id) { var e=document.getElementById(id); if(!e)return; e.classList.add('open'); document.body.style.overflow='hidden'; }
+  function closeA(id){ var e=document.getElementById(id); if(!e)return; e.classList.remove('open'); document.body.style.overflow=''; }
+
+  /* Legales */
+  function openL(id) { var e=document.getElementById(id); if(!e)return; e.classList.add('open'); document.body.style.overflow='hidden'; }
+  function closeL(id){ var e=document.getElementById(id); if(!e)return; e.classList.remove('open'); document.body.style.overflow=''; }
+
+  /* Clic en fondo cierra overlay */
+  document.querySelectorAll('.aov,.lov').forEach(function(ov){
+    ov.addEventListener('click',function(e){ if(e.target===ov){ ov.classList.remove('open'); document.body.style.overflow=''; } });
+  });
+
+  /* ESC cierra */
+  document.addEventListener('keydown',function(e){
+    if(e.key!=='Escape')return;
+    document.querySelectorAll('.aov.open,.lov.open').forEach(function(ov){ ov.classList.remove('open'); document.body.style.overflow=''; });
+  });
+
+  /* Cookie */
+  function aceptar(){ var b=document.getElementById('ck'); if(b)b.classList.add('hidden'); try{localStorage.setItem('per','1');}catch(e){} }
+  (function(){ try{ if(localStorage.getItem('per')==='1'){ var b=document.getElementById('ck'); if(b)b.classList.add('hidden'); } }catch(e){} })();
+
+  /* Formulario */
+  function enviar(e){
+    e.preventDefault();
+    var n=document.getElementById('fn').value.trim();
+    var m=document.getElementById('fe').value.trim();
+    var t=document.getElementById('fm').value.trim();
+    if(!n||!m||!t){ alert('Por favor completa todos los campos antes de enviar.'); return; }
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m)){ alert('Por favor ingresa un correo electrónico válido.'); return; }
+    document.getElementById('cf').style.display='none';
+    document.getElementById('cf-ok').style.display='block';
+  }
+
+  /* Hamburger */
+  var hb=document.getElementById('ham-btn'), mm=document.getElementById('mob-menu'), ho=false;
+  function closeMob(){ mm.style.display='none'; hb.setAttribute('aria-expanded','false'); var s=hb.querySelectorAll('span'); s[0].style.transform=''; s[1].style.opacity=''; s[2].style.transform=''; ho=false; }
+  hb.addEventListener('click',function(){
+    ho=!ho;
+    if(ho){ mm.style.display='flex'; hb.setAttribute('aria-expanded','true'); var s=hb.querySelectorAll('span'); s[0].style.transform='rotate(45deg) translate(5px,5px)'; s[1].style.opacity='0'; s[2].style.transform='rotate(-45deg) translate(5px,-5px)'; }
+    else{ closeMob(); }
+  });
+  document.addEventListener('click',function(e){ if(ho&&!hb.contains(e.target)&&!mm.contains(e.target))closeMob(); });
+
+  /* Scroll suave */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){ var t=document.querySelector(a.getAttribute('href')); if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); } });
+  });
+</script>
+
+</body>
+</html>
